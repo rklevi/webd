@@ -1,15 +1,17 @@
 body{
     background-color: rgb(255, 238, 5);
 }
+
 h1{
     text-align: center;
     color: rgb(252, 11, 11);
 }
+
 h2{
     text-align: center;
     color: darkblue;
 }
-div{
+.box{
     width: 800px;
     background-color: rgb(0, 255, 106);
   border: 15px solid green;
@@ -42,9 +44,21 @@ p{
 h4{
     text-align: center;
 }
+
 .two{
     font-size: 10px;
     font-style: italic;
 }
-
-
+button{
+    width: 250px;
+    height: 50px;
+    position:absolute;
+    margin-left: 1200px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
